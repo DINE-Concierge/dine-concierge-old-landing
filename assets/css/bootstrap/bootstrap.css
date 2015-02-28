@@ -6329,4 +6329,13 @@ button.close {
     display: none !important;
   }
 }
+.slashed:before {
+    content:"╱";   
+    display:block;
+    color:red;
+    font-size:2em;
+    position:relative;
+    left:1em;
+    top:5px;
+  }
 /*# sourceMappingURL=bootstrap.css.map */
