@@ -984,6 +984,8 @@ aside.cta-quote span.quote {
     border-radius: 0;
 }
 
+
+
 @media(min-width:992px) {
     .pricing {
         background-attachment: scroll;
