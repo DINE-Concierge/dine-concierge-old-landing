@@ -1,7 +1,8 @@
 #thanks-cont{
-	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 300;
+	font-family: Raleway;
+	font-weight: 100;
+    font-size: 10px;
+
 }
 #background {
 	content: url("https://dl.dropboxusercontent.com/s/jp5cev7vi16pg8b/DSC_0064-870x490.jpg?dl=0");
@@ -15,13 +16,30 @@
 
 h1, #back{
 	z-index: 100;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 1.2;
 	position: relative;
+	padding-top: 120px;
+	padding-bottom: 10px;
 	color: white;
-	border: 1px solid white;
 	text-align: center;
 }
-
-#sub-message{
-	font-size:15px;
+#thank-you {
+	font-size: 50px
 }
-
+#sub-message{
+	font-size:25px;
+	font-weight: 100;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+#back {
+	padding-top: 5px;
+	border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    width: 200px;
+    margin: 0 auto;
+}
