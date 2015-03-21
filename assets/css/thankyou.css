@@ -1,0 +1,27 @@
+#thanks-cont{
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+#background {
+	content: url("https://dl.dropboxusercontent.com/s/jp5cev7vi16pg8b/DSC_0064-870x490.jpg?dl=0");
+	position: absolute;
+	left: -7%;
+	height: 100%;
+	width: 110%;
+	z-index: 1;
+	position: fixed;
+}
+
+h1, #back{
+	z-index: 100;
+	position: relative;
+	color: white;
+	border: 1px solid white;
+	text-align: center;
+}
+
+#sub-message{
+	font-size:15px;
+}
+

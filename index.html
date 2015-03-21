@@ -65,6 +65,7 @@
       analytics.page()
       }}();
     </script>
+    <script type="text/javascript" src="assets/js/track.js"></script>
 </head>
 
 <!-- Alternate Body Classes: .modern and .vintage -->
@@ -723,7 +724,7 @@
                             <li class="list-group-item">Unlimited Support</li>
                             <li class="list-group-item">Rewards Programs</li>
                         </ul>
-                        <a href="#contact" class="btn btn-outline-dark">Sign Up</a>
+                        <a href="/thankyou.html" class="btn btn-outline-dark">Sign Up</a>
                     </div>
                 </div>
             </div>
@@ -760,10 +761,16 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-outline-dark">Submit</button>
+                                <button type="submit" id="submit-btn" class="btn btn-outline-dark">Submit</button>
                             </div>
                         </div>
                     </form>
+    <script type="text/javascript">
+        $("#submit-btn").click( function(){
+            var form = document.getElementById('submit-btn');
+            analytics.trackLink(form, "New Subscribe",{});
+        })
+    </script>
                 </div>
             </div>
         </div>
