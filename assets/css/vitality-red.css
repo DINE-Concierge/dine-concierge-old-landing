@@ -1283,3 +1283,16 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
     line-height: 55px;
 }
+
+.sign-up{
+    width:40%;
+    height: 65px;
+    font-size: 1.3em;
+    left: 10%
+}
+
+#button-div{
+    text-align: center;
+}
+
+
